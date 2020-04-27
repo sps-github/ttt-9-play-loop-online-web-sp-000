@@ -37,8 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  until board == ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+  board = 0
+  until board == 9
     puts "Please enter 1-9:"
     board += 1
   end

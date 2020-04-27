@@ -37,9 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  counter = 0
-  until counter == 9
+  board = 0
+  until board == 9
     puts "Please enter 1-9:"
-    counter += 1
+    board += 1
   end
 end

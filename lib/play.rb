@@ -37,10 +37,11 @@ end
 
 # Define your play method below
 def play(board)
+  counter = 0
   loop do
-    play += 1
+    counter += 1
     puts "Please enter 1-9:"
-    if play == 9
+    if counter == 9
       break
     end
   end
